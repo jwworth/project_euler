@@ -1,4 +1,4 @@
-# Determine primality 
+# Determine primality
 
 def is_prime?(number)
   return false if number < 2

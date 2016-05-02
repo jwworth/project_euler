@@ -12,7 +12,7 @@ end
 def largest_palindrome(limit)
   palindromes = []
   limit.downto(1) do |x|
-    limit.downto(1) do |y|  
+    limit.downto(1) do |y|
     product = x * y
     palindromes << product if is_palindrome?(product)
     end

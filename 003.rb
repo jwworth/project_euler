@@ -7,7 +7,7 @@ require_relative 'primality.rb'
 
 def largest_prime_factor(number)
   prime_factors = []
-  (1..(Math.sqrt(number))).each do |n| 
+  (1..(Math.sqrt(number))).each do |n|
     prime_factors << n if number % n == 0 && is_prime?(n)
   end
   prime_factors[-1]
