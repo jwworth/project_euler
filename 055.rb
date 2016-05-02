@@ -28,7 +28,7 @@
 # NOTE: Wording was modified slightly on 24 April 2007 to emphasise the
 # theoretical nature of Lychrel numbers.
 
-require 'benchmark.rb'
+require 'benchmark'
 
 def is_palindrome?(number)
   number == number.to_s.reverse.to_i

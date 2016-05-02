@@ -10,7 +10,7 @@
 
 # d1 × d10 × d100 × d1000 × d10000 × d100000 × d1000000
 
-require 'benchmark.rb'
+require 'benchmark'
 
 def champs_constant
   decimal = (1..1_000_000).to_a

@@ -6,7 +6,7 @@
 # (Please note that the palindromic number, in either base, may not include
 # leading zeros.)
 
-require 'benchmark.rb'
+require 'benchmark'
 
 def is_palindrome?(number)
   number == number.to_s.reverse.to_i

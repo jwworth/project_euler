@@ -2,7 +2,7 @@
 
 # What is the sum of the digits of the number 21000?
 
-require 'benchmark.rb'
+require 'benchmark'
 
 def power_digit_sum(number, power)
   n = number ** power
