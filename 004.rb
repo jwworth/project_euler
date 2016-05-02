@@ -6,7 +6,7 @@
 require 'benchmark'
 
 def is_palindrome?(number)
-  number == number.to_s.reverse.to_i ? true : false
+  number == number.to_s.reverse.to_i
 end
 
 def largest_palindrome(limit)
